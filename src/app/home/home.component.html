@@ -1,39 +1,46 @@
 <app-encabezado></app-encabezado>
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top:50px ;">
     <h1 class="text-center">PAGINA HOME</h1>
 </div>
 
-<div class="row center d-flex justify-content-around" style="margin-top: 250px;">
-    <div class="col-8 jumbotron ml-5 mr-3 d-flex justify-content-around" >
+<div class="row center d-flex justify-content-around" style="margin-top: 50px;">
+    <div class="col-8 jumbotron ml-5 mr-3 d-flex justify-content-around" style="border-radius: 20px;">
         <div class="card" style="width: 18rem;">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Tarea Vista</a>
             </div>
           </div>
 
           <div class="card" style="width: 18rem;">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Tarea Vista</a>
             </div>
           </div>
           
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" *ngIf="vista == true">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a class="btn btn-primary" click="cambio()">Tarea Vista</a>
             </div>
           </div>
 
     </div> 
-    <div class="col-3 jumbotron mr-3" >
+    <div class="col-3 jumbotron mr-5" style="border-radius: 20px;">
+        <h2>Profesor</h2>
+        <hr>
+        <ul *ngFor="let profe of lista02">
+          <li>{{profe}}</li>
+        </ul>
+        <hr>
+        <h2>Lista de Compañeros de Curso</h2>
         <ul *ngFor="let nombre of lista">
             <li>{{nombre}}</li>
         </ul>
