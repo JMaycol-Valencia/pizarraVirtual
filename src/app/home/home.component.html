@@ -2,36 +2,32 @@
 <div class="container-fluid" style="margin-top:50px ;">
     <h1 class="text-center">PAGINA HOME</h1>
 </div>
-
 <div class="row center d-flex justify-content-around" style="margin-top: 50px;">
     <div class="col-8 jumbotron ml-5 mr-3 d-flex justify-content-around" style="border-radius: 20px;">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem;" *ngIf="vista01 == true">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Tarea Vista</a>
+              <a (click)="cambio01(vista01)" class="btn btn-primary">Tarea Vista</a>
             </div>
           </div>
-
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" *ngIf="vista02 == true">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Tarea Vista</a>
+              <a (click)="cambio02(vista02)" class="btn btn-primary">Tarea Vista</a>
             </div>
           </div>
-          
-          <div class="card" style="width: 18rem;" *ngIf="vista == true">
+          <div class="card" style="width: 18rem;" *ngIf="vista03 == true">
             <img src="../../assets/img01.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Titulo de Noticia</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a class="btn btn-primary" click="cambio()">Tarea Vista</a>
+              <a class="btn btn-primary" (click)="cambio03(vista03)">Tarea Vista</a>
             </div>
           </div>
-
     </div> 
     <div class="col-3 jumbotron mr-5" style="border-radius: 20px;">
         <h2>Profesor</h2>
