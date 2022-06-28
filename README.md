@@ -5,9 +5,9 @@ Este proyecto esta generado con angular cli en la version 11.0.7. [Angular CLI](
 
 # Integrantes
 
-Alisson Bellot Cuba
-Mariela Poma Andia
-Jhonn Maycol Valencia Andrade
+## Alisson Bellot Cuba
+## Mariela Poma Andia
+## Jhonn Maycol Valencia Andrade
 
 ## Comando para Ejecucion
 
