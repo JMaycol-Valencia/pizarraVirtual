@@ -1,27 +1,22 @@
 # PizarraVirtual
-Proyecto SIG 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
-## Development server
+Proyecto SIG - Udabol - I- 2022 
+Este proyecto esta generado con angular cli en la version 11.0.7. [Angular CLI](https://github.com/angular/angular-cli)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Integrantes
 
-## Code scaffolding
+Alisson Bellot Cuba
+Mariela Poma Andia
+Jhonn Maycol Valencia Andrade
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Comando para Ejecucion
 
-## Build
+Ejecutar `ng serve --port <numero puerto> --open` 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Comando para la creacion de componentes
 
-## Running unit tests
+Ejecutar `ng generate component component-name` para generar un nuevo conponente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Ayuda
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obtener ayuda con los comandos de angular cli ejecutar `ng help` o revisa la documentacion en [Angular CLI Overview and Command Reference](https://angular.io/cli).
