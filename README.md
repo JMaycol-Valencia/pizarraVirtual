@@ -5,9 +5,18 @@ Este proyecto esta generado con angular cli en la version 11.0.7. [Angular CLI](
 
 # Integrantes
 
-## Alisson Bellot Cuba
-## Mariela Poma Andia
-## Jhonn Maycol Valencia Andrade
+<ol>
+    <li> Alisson Bellot Cuba </li>
+    <li> Mariela Poma Andia </li>
+    <li> Jhonn Maycol Valencia Andrade </li>
+</ol>
+
+## Ramas - Branchs
+
+<ol>
+    <li>master - rama de produccion</li>
+    <li>desarollo - rama de pruebas</li>
+</ol>
 
 ## Comando para Ejecucion
 
@@ -20,3 +29,5 @@ Ejecutar `ng generate component component-name` para generar un nuevo conponente
 ## Ayuda
 
 Para obtener ayuda con los comandos de angular cli ejecutar `ng help` o revisa la documentacion en [Angular CLI Overview and Command Reference](https://angular.io/cli).
+
+
